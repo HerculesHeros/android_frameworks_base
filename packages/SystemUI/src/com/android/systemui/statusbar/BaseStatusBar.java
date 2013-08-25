@@ -640,11 +640,15 @@ mContext.getContentResolver().registerContentObserver(
                 if (v.getWindowToken() == null) return false;
 
                 //Long click menu broken on PIE mode...pop up menu is useless (auto-launch on long click)
+<<<<<<< HEAD
                 if (expanded) {
                     launchFloating(contentIntent);
                     animateCollapsePanels(CommandQueue.FLAG_EXCLUDE_NONE);
                     return true;
                 }
+=======
+                if (expanded) launchFloating(contentIntent);
+>>>>>>> 67e80a6a... HALO 2.0 and Others
 
                 mNotificationBlamePopup = new PopupMenu(mContext, v);
                 mNotificationBlamePopup.getMenuInflater().inflate(

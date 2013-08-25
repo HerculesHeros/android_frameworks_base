@@ -64,6 +64,10 @@ import android.os.SystemClock;
 import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.provider.Settings;
+<<<<<<< HEAD
+=======
+import android.util.DisplayMetrics;
+>>>>>>> 67e80a6a... HALO 2.0 and Others
 import android.util.EventLog;
 import android.util.Log;
 import android.util.Slog;

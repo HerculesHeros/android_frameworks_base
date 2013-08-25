@@ -104,6 +104,7 @@ public class RecentsPanelView extends FrameLayout implements OnItemClickListener
     private ImageView mClearRecents;
 
 
+
     private LinearColorBar mRamUsageBar;
 
     private long mFreeMemory;
